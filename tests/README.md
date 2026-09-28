@@ -1,0 +1,1 @@
+Run `npm test`. Backend tests use the official convex-test implementation and a module map to the actual finance functions. No hosted Convex credentials are needed. `convex/server.ts` contains schema-typed Convex builders to keep this source compileable before the first `convex dev`; the CLI may still generate its standard helper files when you connect your project.
